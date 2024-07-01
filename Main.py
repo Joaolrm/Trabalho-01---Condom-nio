@@ -15,6 +15,7 @@ ap6 = Apartamento("105", t1)
 
 
 lv1 = ListaDeApComVaga()
+fv1 = FilaDeVagas()
 lv1.add(ap3)
 lv1.add(ap1)
 lv1.add(ap2)
@@ -23,8 +24,7 @@ print(lv1.remover(2))
 lv1.add(ap1)
 lv1.add(ap5)
 lv1.add(ap6)
-lv1.remover(2)
-print(lv1.getOcupacao())
+fv1.add(lv1.remover(2))
 lv1.remover(3)
 lv1.remover(1)
 lv1.remover(4)
@@ -33,6 +33,7 @@ lv1.remover(5)
 lv1.remover(6)
 fv1= FilaDeVagas()
 fv1.remover()
+
 
 
 

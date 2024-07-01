@@ -24,9 +24,9 @@ class FilaDeVagas:
             print( self.tamanho,  " elementos na Lista" )
             aux = self.inicio
             while aux:
-                texto += aux.dado + " - "
+                print(aux)
                 aux = aux.proximo
-            print(texto)
+                
     
     def remover(self):
         if self.inicio:
