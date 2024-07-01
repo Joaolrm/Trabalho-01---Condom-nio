@@ -10,10 +10,14 @@ class Apartamento:
         self.proximo = None
 
     def __str__(self):
-        return f"""Id: {self.id}\nNúmero: {self.numero}\nVaga: {self.vaga}\nTorre: \n{self.torre}\n"""
+        return f"""Apartamento:\nId do apartamento: {self.id}\nNúmero do apartamento: {self.numero}\nNúmero da vaga: {self.vaga}\nTorre: \n{self.torre}\n"""
 
     def cadastrar(self):
         print(f"Apartamento cadastrado:\n{self}")
     
     def imprimir(self):
         print(f"Apartamento: {self}\n")
+
+    def setVaga(self, vaga):
+        self.vaga = vaga
+        

@@ -8,7 +8,7 @@ class Torre:
         self.endereco = endereco
 
     def __str__(self):
-        return f"""\tId: {self.id}\n\tNome: {self.nome}\n\tEndereco: {self.endereco}\n"""
+        return f"""\tId da torre: {self.id}\n\tNome da torre: {self.nome}\n\tEndereço da torre: {self.endereco}\n"""
 
     def cadastrar(self):
         print(f"Torre cadastrada:\n{self}")
