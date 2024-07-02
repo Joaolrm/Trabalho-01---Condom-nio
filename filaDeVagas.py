@@ -31,11 +31,13 @@ class FilaDeVagas:
     def remover(self):
         if self.inicio:
             apRemovido = self.inicio
-            if self.inicio.prox == None:
+            if self.inicio.proximo == None:
                 self.inicio = None
                 self.fim = None
+                self.tamanho -= 1
             else:
                 self.inicio = self.inicio.proximo
+                self.tamanho -= 1
             
             apRemovido.proximo = None
             return apRemovido
