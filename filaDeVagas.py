@@ -14,7 +14,6 @@ class FilaDeVagas:
             self.fim.proximo = apartamento
         self.fim = apartamento
         self.tamanho += 1
-        self.imprimir()
 
     def imprimir(self):
         print("----------Fila de vagas----------")

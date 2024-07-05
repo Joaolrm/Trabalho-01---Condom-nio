@@ -30,7 +30,6 @@ class ListaDeApComVaga:
 				if aux == None and apartamento.vaga >= ant.vaga:
 					ant.proximo = apartamento
 		self.ocupacao += 1
-		self.imprimir()
 
 	def imprimir(self):
 		print("------Lista Encadeada---------")
@@ -76,7 +75,6 @@ class ListaDeApComVaga:
 				return apRemovido
 		if tamInicial == self.ocupacao:
 			print( "Número da vaga não encontrado")
-		self.imprimir()
 		
 		
 

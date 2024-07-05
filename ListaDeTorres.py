@@ -28,7 +28,6 @@ class ListaDeTorres:
 				if aux == None and torre.id >= ant.id:
 					ant.proximo = torre
 		self.torres += 1
-		self.imprimir()
 
 	def imprimir(self):
 		print("Lista de torres disponiveis: ")
@@ -73,7 +72,6 @@ class ListaDeTorres:
 				return apRemovido
 		if tamInicial == self.torres:
 			print( "Número da id não encontrado")
-		self.imprimir()
 
 
 	def getTorreById(self, numId):
